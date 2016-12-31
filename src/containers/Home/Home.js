@@ -7,9 +7,11 @@ import Tweet from '../../components/Tweet';
 
 const Home = () => (
   <div className="homepage">
-    {tweets.map((tweet , index) => (
-      <Tweet {...tweet} key={index} />
-    ))}
+    <div className="tweets">
+      {tweets.map((tweet , index) => (
+        <Tweet {...tweet} key={index} />
+      ))}
+    </div>
   </div>
 );
 
