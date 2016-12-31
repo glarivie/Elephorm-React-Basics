@@ -13,10 +13,6 @@
   border-bottom: none;
 }
 
-.tweet .avatar {
-
-}
-
 .tweet .avatar img {
   width: 48px;
   height: 48px;
@@ -53,8 +49,4 @@
 
 .tweet .data .infos .date:before {
   content: "\00b7 ";
-}
-
-.tweet .data .content {
-
 }

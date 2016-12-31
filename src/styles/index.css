@@ -14,10 +14,10 @@ p {
 }
 
 .highlight {
-  color: #1b95e0;
+  color: #66aeda;
 }
 
 .highlight:hover {
-  color: #66aeda;
+  color: #1b95e0;
   cursor: pointer;
 }
