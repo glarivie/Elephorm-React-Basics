@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Home.css';
 import { tweets } from '../../constants';
+import { highlightedStr } from '../../helpers';
 
 const Home = () => (
   <div className="homepage">
@@ -17,7 +18,7 @@ const Home = () => (
             <small className="gray date">{date}</small>
           </div>
           <div className="content">
-            <p>{content}</p>
+            <p>{highlightedStr(content)}</p>
           </div>
         </div>
       </div>

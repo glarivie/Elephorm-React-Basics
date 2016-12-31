@@ -12,3 +12,12 @@ p {
   padding: 0;
   line-height: 20px;
 }
+
+.highlight {
+  color: #1b95e0;
+}
+
+.highlight:hover {
+  color: #66aeda;
+  cursor: pointer;
+}
