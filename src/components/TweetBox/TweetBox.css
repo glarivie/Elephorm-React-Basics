@@ -19,6 +19,10 @@
   resize: none;
 }
 
+.tweetbox textarea.alert {
+  border-color: #f55959;
+}
+
 .tweetbox .action {
   display: flex;
   flex-grow: 1;

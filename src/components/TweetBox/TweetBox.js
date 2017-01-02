@@ -27,7 +27,6 @@ class TweetBox extends Component {
   render() {
     const { value } = this.state;
 
-
     return (
       <div className="tweetbox">
         <textarea
@@ -35,6 +34,7 @@ class TweetBox extends Component {
           value={value}
           onChange={this.handleChange}
           placeholder="Composez votre tweet"
+          className={value.length > 140 && 'alert'}
         />
         <div className="action">
           <span className="count">{140 - value.length}</span>

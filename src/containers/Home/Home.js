@@ -28,17 +28,24 @@ class Home extends Component {
     });
   };
 
+  remove = index => this.setState({
+    tweets: this.state.tweets.filter((tweet, i) => i !== index),
+  });
+
   render() {
     const { tweets } = this.state;
-
-    console.log(tweets);
 
     return (
       <div className="homepage">
         <TweetBox publish={this.publish} />
         <div className="tweets">
           {tweets.map((tweet , index) => (
-            <Tweet {...tweet} key={index} />
+            <Tweet
+              {...tweet}
+              key={index}
+              index={index}
+              remove={this.remove}
+            />
           ))}
         </div>
       </div>

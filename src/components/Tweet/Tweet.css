@@ -3,6 +3,7 @@
   padding: 15px;
   display: flex;
   flex-direction: row;
+  word-break: break-word;
 }
 
 .tweet:hover {
@@ -19,7 +20,6 @@
   border-radius: 5px;
   margin-right: 15px;
 }
-
 
 .tweet .data {
   display: flex;
@@ -45,6 +45,10 @@
 
 .tweet .data .infos .gray {
   color: #8899a6;
+}
+
+.tweet .data .infos .trash {
+  cursor: pointer;
 }
 
 .tweet .data .infos .date:before {
