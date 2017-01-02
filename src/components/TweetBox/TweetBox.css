@@ -52,8 +52,8 @@
 }
 
 .tweetbox .action > button:disabled {
-  color: #BBB;
-  background-color: #DDD;
+  color: #BBB !important;
+  background-color: #DDD !important;
 }
 
 .tweetbox .action > button:hover {
