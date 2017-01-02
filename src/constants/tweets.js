@@ -16,6 +16,12 @@ const tweets = [{
   fullname: 'Guillaume Larivière',
   content: 'Retrouvez-moi aujourd\'hui pour un petit tuto #React sur la plateforme @elephorm',
   date: '11/12/2016',
+}, {
+  avatar: 'https://pbs.twimg.com/profile_images/797746572742234112/yaTOzHW8_bigger.jpg',
+  username: 'reactjs_fr',
+  fullname: 'ReactJS.fr',
+  content: 'Petit rappel sur les boucles et les conditions en #JavaScript : http://reactjs.fr/javascript/boucles-conditions/',
+  date: '01/11/2016',
 }];
 
 export default tweets;
