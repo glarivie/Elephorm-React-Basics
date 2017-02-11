@@ -1,0 +1,56 @@
+.tweet {
+  border-bottom: 1px solid #EEE;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  word-break: break-word;
+}
+
+.tweet:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, .1);
+}
+
+.tweet:last-of-type {
+  border-bottom: none;
+}
+
+.tweet .avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.tweet .data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.tweet .data .infos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.tweet .data .infos .fullname, .tweet .data .infos .gray {
+  margin-right: 5px;
+}
+
+.tweet .data .infos .fullname {
+  font-weight: 600;
+}
+
+.tweet .data .infos .gray {
+  color: #8899a6;
+}
+
+.tweet .data .infos .trash {
+  cursor: pointer;
+}
+
+.tweet .data .infos .date:before {
+  content: "\00b7 ";
+}
